@@ -1,0 +1,136 @@
+<Block caption="simple" number="9">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.19043)
+GenuineIntel, Stepping ID = 10, Model = 14, Family = 6, Extended model = 8, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 8, Processor type: 8664, Active processor mask: 255, Page size: 4096 bites
+std::thread::hardware_concurrency = 8
+OpenMP enabled (spec=200203). max_threads = 8, num_procs = 8, num_threads = 8.
+
+]]>
+</Block>
+<Block caption="Vwr::LoadFlowField" number="0">
+<![CDATA[
+EXTERNAL=1   LAMTURB=1   CHT=0
+IT=6   NT=2   NZ=1
+U_DIM_EXT_MAX=8   US_DIM=0
+-----------------------------------------------------------------------
+Allocating meshes:
+	CPU count: 8
+	MESH 0:
+		Sub-meshes count: 8
+-----------------------------------------------------------------------
+----------------------------------------------------------
+BCF --> BCF.GEOMSUBDOM (bridge arrays) (cpu_num=8):
+MESH (0):
+	Fluid Subdom Constructor: 1 subdom(s).
+	Solid Subdom Constructor: 1 subdom(s).
+	Net Asm Subdom Constructor: 0 subdom(s).
+	GEOMSUBDOM (0): gi=0 fluid av=1224 cv=1224 fa=3228 fw=792 V=1.968287e-005
+	GEOMSUBDOM (1): gi=1 solid av=712 cv=712 fa=1420 fw=1680 V=6.071040e-006
+	Setting nb of w-faces...OK.
+
+MESH (0) checking:
+	GEOMSUBDOM (0):fa_s=0.0204904093491333 fw_s=0.0053936077060799 fw_nb=6592
+	GEOMSUBDOM (1):fa_s=0.0040554804428667 fw_s=0.0123332833540799 fw_nb=10144
+MESH (0) checking: OK.
+----------------------------------------------------------
+Read cpt took 0.23 sec.
+
+===ThermodynamicsHolder:===
+Subdom 0 Incompressible liquid thermodynamics
+	substance 0 type=fwLiquid, guid=6D4EB34F944911D4B47100A024552746, name=Water
+===ThermodynamicsHolder:===
+MESH::Bricks: Total=1224 Gas=512 Solid=0 Partial=712 Irregular=0
+CD X0= -0.0501, X1= 0.0501, Y0= -0.008016, Y1= 0.008016, Z0= -0.008016, Z1= 0.008016
+Working in No GDBLight mode
+Working in No GDBLight mode
+Read cfld took 0.03 sec.
+Collecting Reference Parameters... OK
+Read fld took 0.04 sec.
+
+]]>
+<Block caption="simple" number="10">
+<![CDATA[
+81 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+</Block>
+<Block caption="simple" number="11">
+<![CDATA[
+86 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="12">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.19043)
+GenuineIntel, Stepping ID = 10, Model = 14, Family = 6, Extended model = 8, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 8, Processor type: 8664, Active processor mask: 255, Page size: 4096 bites
+std::thread::hardware_concurrency = 8
+OpenMP enabled (spec=200203). max_threads = 8, num_procs = 8, num_threads = 8.
+
+]]>
+</Block>
+<Block caption="Vwr::LoadFlowField" number="1">
+<![CDATA[
+EXTERNAL=1   LAMTURB=1   CHT=0
+IT=6   NT=2   NZ=1
+U_DIM_EXT_MAX=8   US_DIM=0
+-----------------------------------------------------------------------
+Allocating meshes:
+	CPU count: 8
+	MESH 0:
+		Sub-meshes count: 8
+-----------------------------------------------------------------------
+----------------------------------------------------------
+BCF --> BCF.GEOMSUBDOM (bridge arrays) (cpu_num=8):
+MESH (0):
+	Fluid Subdom Constructor: 1 subdom(s).
+	Solid Subdom Constructor: 1 subdom(s).
+	Net Asm Subdom Constructor: 0 subdom(s).
+	GEOMSUBDOM (0): gi=0 fluid av=1224 cv=1224 fa=3228 fw=792 V=1.968287e-005
+	GEOMSUBDOM (1): gi=1 solid av=712 cv=712 fa=1420 fw=1680 V=6.071040e-006
+	Setting nb of w-faces...OK.
+
+MESH (0) checking:
+	GEOMSUBDOM (0):fa_s=0.0204904093491333 fw_s=0.0053936077060799 fw_nb=6592
+	GEOMSUBDOM (1):fa_s=0.0040554804428667 fw_s=0.0123332833540799 fw_nb=10144
+MESH (0) checking: OK.
+----------------------------------------------------------
+Read cpt took 0.02 sec.
+
+===ThermodynamicsHolder:===
+Subdom 0 Incompressible liquid thermodynamics
+	substance 0 type=fwLiquid, guid=6D4EB34F944911D4B47100A024552746, name=Water
+===ThermodynamicsHolder:===
+MESH::Bricks: Total=1224 Gas=512 Solid=0 Partial=712 Irregular=0
+CD X0= -0.0501, X1= 0.0501, Y0= -0.008016, Y1= 0.008016, Z0= -0.008016, Z1= 0.008016
+Working in No GDBLight mode
+Working in No GDBLight mode
+Read cfld took 0.01 sec.
+Collecting Reference Parameters... OK
+Read fld took 0.01 sec.
+
+]]>
+<Block caption="simple" number="13">
+<![CDATA[
+81 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+</Block>
+<Block caption="simple" number="14">
+<![CDATA[
+86 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>

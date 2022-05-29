@@ -1,0 +1,87 @@
+
+    System Info
+                Status:   Solver is finished.
+                Product:   Flow Simulation 2017 SP2.0. Build: 3731
+                Computer name:   DESKTOP-8U0AR32
+                User name:   Wildf
+                Processors:   Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+                Memory:   32646 MB / 134217727 MB
+                Operating system:   Windows 10 (or higher) (Version 10.0.19043)
+                CAD version:   SOLIDWORKS 2017 SP2.0
+                CPU speed:   2112 (1910) MHz
+
+    General Info
+                Model:   Pipe.SLDPRT
+                Project name:   Laminar pipeflow
+                Project path:   C:\Users\Wildf\Workplace\NTU-BIME_Heat-Transfer\Examples\Flow Simulation Pipeflow\1
+                Units system:   SI (m-kg-s)
+                Analysis type:   Internal
+                Exclude cavities without flow conditions :   On
+                Coordinate system:   Global coordinate system
+                Reference axis:   X
+
+    Physical Features
+                Heat conduction in solids:   Off
+                Time dependent:   Off
+                Gravitational effects:   Off
+                Flow type:   Laminar and turbulent
+                Cavitation:   Off
+                High Mach number flow:   Off
+                Default roughness:   0 micrometer
+
+            Default wall conditions
+                Wall temperature:   450.00 K
+
+    Computational Domain
+
+        Size
+                X min:   -0.050 m
+                X max:   0.050 m
+                Y min:   -0.008 m
+                Y max:   0.008 m
+                Z min:   -0.008 m
+                Z max:   0.008 m
+
+    Calculation Mesh
+
+        Basic Mesh Dimensions
+                Number of cells in X:   34
+                Number of cells in Y:   6
+                Number of cells in Z:   6
+
+        Number Of Cells
+                Cells:   1224
+                Fluid cells:   1224
+                Irregular cells:   0
+                Trimmed cells:   0
+                Maximum refinement level:   0
+
+    Goals
+
+        Surface Goals
+
+            SG Av Temperature (Fluid) 1
+                Type:   Surface Goal
+                Goal type:   Temperature (Fluid)
+                Calculate:   Average value
+                Faces:   Face<1>
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+    Goals
+                
+                Name                          	Unit   	Value    	Progress   	Criteria     	Delta        	Use in convergence 
+                SG Av Temperature (Fluid) 1   	K      	366.90   	100        	10.4016136   	8.39814661   	On                 
+
+    General Info
+                Iterations:   45
+                CPU time:   6 s
+
+        Log
+                Mesh generation started	0:   22:01:20 , May 28
+                Mesh generation normally finished	0:   22:01:21 , May 28
+                Preparing data for calculation	0:   22:01:22 , May 28
+                Calculation started	0:   22:01:23 , May 28
+                Calculation has converged since the following criteria are satisfied:	44:   22:01:29 , May 28
+                    Goals are converged	44:   
+                Calculation finished	45:   22:01:29 , May 28
