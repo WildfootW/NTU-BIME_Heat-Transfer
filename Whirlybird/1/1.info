@@ -1,0 +1,72 @@
+
+    System Info
+                Status:   Solver is finished.
+                Product:   Flow Simulation 2017 SP2.0. Build: 3731
+                Computer name:   DESKTOP-8U0AR32
+                User name:   Wildf
+                Processors:   Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+                Memory:   32646 MB / 134217727 MB
+                Operating system:   Windows 10 (or higher) (Version 10.0.19043)
+                CAD version:   SOLIDWORKS 2017 SP2.0
+                CPU speed:   2112 (1910) MHz
+
+    General Info
+                Model:   Whirlybird.SLDASM
+                Project name:   Fix RPM
+                Project path:   C:\Users\Wildf\Workplace\NTU-BIME_Heat-Transfer\Whirlybird\1
+                Units system:   SI (m-kg-s)
+                Analysis type:   External (not exclude internal spaces)
+                Exclude cavities without flow conditions :   Off
+                Coordinate system:   Global coordinate system
+                Reference axis:   Y
+
+    Physical Features
+                Heat conduction in solids:   Off
+                Time dependent:   Off
+                Gravitational effects:   Off
+                Flow type:   Laminar and turbulent
+                High Mach number flow:   Off
+                Humidity:   Off
+                Default roughness:   0 micrometer
+                Default wall conditions:   Adiabatic wall
+
+    Computational Domain
+
+        Size
+                X min:   -0.050 m
+                X max:   0.050 m
+                Y min:   -0.050 m
+                Y max:   0.050 m
+                Z min:   -0.050 m
+                Z max:   0.050 m
+
+    Calculation Mesh
+
+        Basic Mesh Dimensions
+                Number of cells in X:   10
+                Number of cells in Y:   7
+                Number of cells in Z:   10
+
+        Number Of Cells
+                Cells:   34102
+                Fluid cells:   34102
+                Irregular cells:   0
+                Trimmed cells:   0
+                Maximum refinement level:   4
+
+    Goals
+                
+                Name   	Unit   	Value   	Progress   	Criteria   	Delta   	Use in convergence 
+
+    General Info
+                Iterations:   59
+                CPU time:   141 s
+
+        Log
+                Mesh generation started	0:   04:21:03 , May 30
+                Mesh generation normally finished	0:   04:22:24 , May 30
+                Preparing data for calculation	0:   04:22:24 , May 30
+                Calculation started	0:   04:22:28 , May 30
+                Calculation has converged since the following criteria are satisfied:	58:   04:24:46 , May 30
+                    Goals are converged	58:   
+                Calculation finished	59:   04:24:55 , May 30

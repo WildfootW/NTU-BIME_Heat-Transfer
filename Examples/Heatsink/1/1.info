@@ -1,0 +1,93 @@
+
+    System Info
+                Status:   Solver is finished.
+                Product:   Flow Simulation 2017 SP2.0. Build: 3731
+                Computer name:   DESKTOP-8U0AR32
+                User name:   Wildf
+                Processors:   Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+                Memory:   32646 MB / 134217727 MB
+                Operating system:   Windows 10 (or higher) (Version 10.0.19043)
+                CAD version:   SOLIDWORKS 2017 SP2.0
+                CPU speed:   2112 (1910) MHz
+
+    General Info
+                Model:   Assem1.SLDASM
+                Project name:   Natural Convection
+                Project path:   C:\Users\Wildf\Workplace\NTU-BIME_Heat-Transfer\Examples\Heatsink\1
+                Units system:   SI (m-kg-s)
+                Analysis type:   External (not exclude internal spaces)
+                Exclude cavities without flow conditions :   Off
+                Coordinate system:   Global coordinate system
+                Reference axis:   Y
+
+    Physical Features
+                Heat conduction in solids:   On
+                Heat conduction in solids only:   Off
+                Radiation:   Off
+                Time dependent:   Off
+                Gravitational effects:   On
+                Flow type:   Laminar and turbulent
+                High Mach number flow:   Off
+                Humidity:   Off
+                Default roughness:   0 micrometer
+
+        Gravitational Settings
+                X component:   0 m/s^2
+                Y component:   -9.81 m/s^2
+                Z component:   0 m/s^2
+
+    Computational Domain
+
+        Size
+                X min:   0 m
+                X max:   0.150 m
+                Y min:   -0.100 m
+                Y max:   0.500 m
+                Z min:   0 m
+                Z max:   0.150 m
+
+    Calculation Mesh
+
+        Basic Mesh Dimensions
+                Number of cells in X:   4
+                Number of cells in Y:   20
+                Number of cells in Z:   4
+
+        Number Of Cells
+                Cells:   15027
+                Fluid cells:   9294
+                Solid cells:   5733
+                Irregular cells:   0
+                Trimmed cells:   0
+                Maximum refinement level:   4
+
+    Goals
+
+        Surface Goals
+
+            SG Chip Heat Source Temperature
+                Type:   Surface Goal
+                Goal type:   Temperature (Solid)
+                Calculate:   Maximum value
+                Faces:   Face<1>@Plate-1
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+    Goals
+                
+                Name                              	Unit   	Value    	Progress   	Criteria     	Delta        	Use in convergence 
+                SG Chip Heat Source Temperature   	°C     	921.99   	100        	112.882798   	98.2340532   	On                 
+
+    General Info
+                Iterations:   53
+                CPU time:   45 s
+
+        Log
+                Mesh generation started	0:   04:43:33 , May 31
+                Mesh generation normally finished	0:   04:43:44 , May 31
+                Preparing data for calculation	0:   04:43:44 , May 31
+                Calculation started	0:   04:43:46 , May 31
+                Calculation has converged since the following criteria are satisfied:	52:   04:44:30 , May 31
+                    Goals are converged	52:   
+                Calculation finished	53:   04:44:31 , May 31
+                Warnings:   Solid is melting	Material: Aluminum 5052 ; Max temperature=921.989 °C; Melting temperature=607.23 °C, 		, 
