@@ -66,14 +66,14 @@
                 Name   	Unit   	Value   	Progress   	Criteria   	Delta   	Use in convergence 
 
     General Info
-                Iterations:   83
-                CPU time:   42 s
+                Iterations:   81
+                CPU time:   31 s
 
         Log
-                Mesh generation started	0:   23:12:34 , Jun 01
-                Mesh generation normally finished	0:   23:12:37 , Jun 01
-                Preparing data for calculation	0:   23:12:37 , Jun 01
-                Calculation started	0:   23:12:38 , Jun 01
-                Calculation has converged since the following criteria are satisfied:	82:   23:13:19 , Jun 01
-                    Goals are converged	82:   
-                Calculation finished	83:   23:13:19 , Jun 01
+                Mesh generation started	0:   02:14:55 , Jun 02
+                Mesh generation normally finished	0:   02:14:58 , Jun 02
+                Preparing data for calculation	0:   02:14:58 , Jun 02
+                Calculation started	0:   02:14:58 , Jun 02
+                Calculation has converged since the following criteria are satisfied:	80:   02:15:29 , Jun 02
+                    Goals are converged	80:   
+                Calculation finished	81:   02:15:29 , Jun 02

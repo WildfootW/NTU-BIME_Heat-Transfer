@@ -1,0 +1,79 @@
+
+    System Info
+                Status:   Solver is finished.
+                Product:   Flow Simulation 2017 SP2.0. Build: 3731
+                Computer name:   DESKTOP-8U0AR32
+                User name:   Wildf
+                Processors:   Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+                Memory:   32646 MB / 134217727 MB
+                Operating system:   Windows 10 (or higher) (Version 10.0.19043)
+                CAD version:   SOLIDWORKS 2017 SP2.0
+                CPU speed:   2112 (1910) MHz
+
+    General Info
+                Model:   HouseAssem.SLDASM
+                Project name:   Natural Convection - 6 Windows with Vent
+                Project path:   C:\Users\Wildf\Workplace\NTU-BIME_Heat-Transfer\Corrugated Iron House\4
+                Units system:   SI (m-kg-s)
+                Analysis type:   External (not exclude internal spaces)
+                Exclude cavities without flow conditions :   Off
+                Coordinate system:   Global coordinate system
+                Reference axis:   X
+
+    Physical Features
+                Heat conduction in solids:   On
+                Heat conduction in solids only:   Off
+                Radiation:   Off
+                Time dependent:   Off
+                Gravitational effects:   On
+                Flow type:   Laminar and turbulent
+                High Mach number flow:   Off
+                Humidity:   Off
+                Default roughness:   0 micrometer
+
+        Gravitational Settings
+                X component:   0 m/s^2
+                Y component:   -9.81 m/s^2
+                Z component:   0 m/s^2
+
+    Computational Domain
+
+        Size
+                X min:   -15.000 m
+                X max:   15.000 m
+                Y min:   -1.000 m
+                Y max:   10.000 m
+                Z min:   -8.000 m
+                Z max:   8.000 m
+
+    Calculation Mesh
+
+        Basic Mesh Dimensions
+                Number of cells in X:   28
+                Number of cells in Y:   12
+                Number of cells in Z:   16
+
+        Number Of Cells
+                Cells:   8766
+                Fluid cells:   7702
+                Solid cells:   1064
+                Irregular cells:   3
+                Trimmed cells:   16
+                Maximum refinement level:   1
+
+    Goals
+                
+                Name   	Unit   	Value   	Progress   	Criteria   	Delta   	Use in convergence 
+
+    General Info
+                Iterations:   129
+                CPU time:   47 s
+
+        Log
+                Mesh generation started	0:   04:52:35 , Jun 02
+                Mesh generation normally finished	0:   04:52:41 , Jun 02
+                Preparing data for calculation	0:   04:52:41 , Jun 02
+                Calculation started	0:   04:52:42 , Jun 02
+                Calculation has converged since the following criteria are satisfied:	128:   04:53:28 , Jun 02
+                    Goals are converged	128:   
+                Calculation finished	129:   04:53:28 , Jun 02

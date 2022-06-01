@@ -1,0 +1,157 @@
+<Block caption="simple" number="8">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.19043)
+GenuineIntel, Stepping ID = 10, Model = 14, Family = 6, Extended model = 8, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 8, Processor type: 8664, Active processor mask: 255, Page size: 4096 bites
+std::thread::hardware_concurrency = 8
+OpenMP enabled (spec=200203). max_threads = 8, num_procs = 8, num_threads = 8.
+
+]]>
+</Block>
+<Block caption="Vwr::LoadFlowField" number="0">
+<![CDATA[
+EXTERNAL=0   LAMTURB=1   CHT=1
+IT=6   NT=2   NZ=1
+U_DIM_EXT_MAX=8   US_DIM=1
+-----------------------------------------------------------------------
+Allocating meshes:
+	CPU count: 8
+	MESH 0:
+		Sub-meshes count: 8
+-----------------------------------------------------------------------
+----------------------------------------------------------
+BCF --> BCF.GEOMSUBDOM (bridge arrays) (cpu_num=8):
+MESH (0):
+	Fluid Subdom Constructor: 1 subdom(s).
+	Solid Subdom Constructor: 2 subdom(s).
+	Net Asm Subdom Constructor: 0 subdom(s).
+	GEOMSUBDOM (0): gi=0 fluid av=7528 cv=7446 fa=21398 fw=4700 V=5.279218e+003
+	GEOMSUBDOM (1): gi=2 solid av=352 cv=352 fa=670 fw=956 V=5.100000e-001
+	GEOMSUBDOM (2): gi=1 solid av=648 cv=648 fa=1294 fw=1664 V=2.721454e-001
+	Setting nb of w-faces...OK.
+
+MESH (0) checking:
+	GEOMSUBDOM (0):fa_s=15552.4577024299800000 fw_s=2720.5148475246515000 fw_nb=37500
+	GEOMSUBDOM (1):fa_s=1.7069468280285824 fw_s=204.2299999999999000 fw_nb=6936
+	GEOMSUBDOM (2):fa_s=0.8455667844667052 fw_s=544.3688395246524600 fw_nb=12740
+MESH (0) checking: OK.
+----------------------------------------------------------
+Read cpt took 0.12 sec.
+
+===ThermodynamicsHolder:===
+Subdom 0 Ideal gas thermodynamics
+	substance 0 type=fwGas, guid=2B966F4A9A9F11D4A50048A0E8000000, name=Air
+===ThermodynamicsHolder:===
+MESH::Bricks: Total=6692 Gas=5772 Solid=0 Partial=920 Irregular=0
+CD X0= -15, X1= 15, Y0= -1, Y1= 10, Z0= -8, Z1= 8
+Working in No GDBLight mode
+Working in No GDBLight mode
+Read cfld took 0.01 sec.
+Collecting Reference Parameters... OK
+Read fld took 0.08 sec.
+
+]]>
+<Block caption="simple" number="9">
+<![CDATA[
+98 parameter(s) in list of scalar parameters
+5 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+</Block>
+<Block caption="simple" number="10">
+<![CDATA[
+98 parameter(s) in list of scalar parameters
+5 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="11">
+<![CDATA[
+98 parameter(s) in list of scalar parameters
+5 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="12">
+<![CDATA[
+98 parameter(s) in list of scalar parameters
+5 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="3">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.19043)
+GenuineIntel, Stepping ID = 10, Model = 14, Family = 6, Extended model = 8, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 8, Processor type: 8664, Active processor mask: 255, Page size: 4096 bites
+std::thread::hardware_concurrency = 8
+OpenMP enabled (spec=200203). max_threads = 8, num_procs = 8, num_threads = 8.
+
+]]>
+</Block>
+<Block caption="simple" number="4">
+<![CDATA[
+98 parameter(s) in list of scalar parameters
+5 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="3">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.19043)
+GenuineIntel, Stepping ID = 10, Model = 14, Family = 6, Extended model = 8, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 8, Processor type: 8664, Active processor mask: 255, Page size: 4096 bites
+std::thread::hardware_concurrency = 8
+OpenMP enabled (spec=200203). max_threads = 8, num_procs = 8, num_threads = 8.
+
+]]>
+</Block>
+<Block caption="simple" number="4">
+<![CDATA[
+98 parameter(s) in list of scalar parameters
+5 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="5">
+<![CDATA[
+98 parameter(s) in list of scalar parameters
+5 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="6">
+<![CDATA[
+98 parameter(s) in list of scalar parameters
+5 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="7">
+<![CDATA[
+98 parameter(s) in list of scalar parameters
+5 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="8">
+<![CDATA[
+98 parameter(s) in list of scalar parameters
+5 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="9">
+<![CDATA[
+98 parameter(s) in list of scalar parameters
+5 parameter(s) in list of vector parameters
+
+]]>
+</Block>

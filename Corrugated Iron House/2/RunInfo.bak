@@ -16,13 +16,13 @@ Trans:0
 UsePrevRes:0
 ForcetoRunCPT:1
 ComputerName:
-port:4118
+port:18827
 ProcessResults:1
 LoadLastResult:1
 ProcessorsToUse:0
 LoadBaseFLDFile:0
 BaseFLDFile:
-id:{089A0954-A870-4E56-BB8D-F10BF22BEC9F}
+id:{A74FC919-1741-4BBE-A4FD-AC09259A895C}
 calculation_state:15
 ForceContinue:0
-SolverProcessId:24476
+SolverProcessId:27620
